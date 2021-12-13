@@ -10,28 +10,8 @@ For building and running the application you need:
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.medical.SpringMVC` class from your IDE.
 
-Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
-
-```shell
-mvn spring-boot:run
-```
-This will create:
-
-* An ImageStream called "springboot-maven3-centos"
-* An ImageStream called "springboot-sample-app"
-* A BuildConfig called "springboot-sample-app"
-* DeploymentConfig called "springboot-sample-app"
-* Service called "springboot-sample-app"
-
-If you want to access the app from outside your OpenShift installation, you have to expose the springboot-sample-app service:
-
-```shell
-oc expose springboot-sample-app --hostname=www.example.com
-```
-
-<img src="./bioMedical/img/1.png" >
+<img src="1.png" >
 
 # User Panel :
 
